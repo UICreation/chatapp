@@ -1,7 +1,7 @@
 {
-  "name": "Chat App",
+  "name": "NodeApp",
   "version": "1.0.0",
-  "description": "Chat App",
+  "description": "Chat app.",
   "main": "server.js",
   "homepage": "https://uicreation.github.io/chatapp",
   "scripts": {
