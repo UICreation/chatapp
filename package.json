@@ -1,13 +1,14 @@
 {
-  "name": "NodeJs",
+  "name": "Chat App",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chat App",
   "main": "server.js",
   "homepage": "https://uicreation.github.io/chatapp",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "node server.js"
   },
-  "keywords": [],
+  "keywords": ["chatapp"],
   "author": "",
   "license": "ISC",
   "dependencies": {

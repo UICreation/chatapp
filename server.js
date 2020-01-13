@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var mongoose = require('mongoose');
+var path = require('path');
 const port = 3001;
 // app.use(express.static(__dirname))
 // app.listen(3001, () => 
@@ -18,7 +19,7 @@ var Message = mongoose.model('Message', {
     message: String
 })
 
-app.use(express.static(__dirname))
+app.use(express.static(path.join(__dirname, 'src')))
 app.use(bodyParser.json())
 // app.use(bodyParser.urlencoded({extended: false}))
 app.get('/messages', (req, res) => {
@@ -47,6 +48,10 @@ app.post('/messages', (req, res) => {
         res.sendStatus(200)
 
 
+})
+
+app.get('/about', () => {
+    console.log('about render')
 })
 // app.delete('/messages', (req, res) => {
 //     var message = new Message({_id: req._id})
