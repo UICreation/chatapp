@@ -1,9 +1,13 @@
 {
   "name": "NodeApp",
   "version": "1.0.0",
-  "description": "Chat app.",
+  "description": "Chat app built in Node with help of socket.io and mongo cloud",
   "main": "server.js",
-  "homepage": "https://uicreation.github.io/chatapp",
+  "homepage": "https://github.com/UICreation/chatapp",
+  "bugs": {
+    "url": "https://github.com/UICreation/chatapp/issues",
+    "email": "shivam.designweb@gmail.com"
+  },
   "scripts": {
     "test": "jasmine",
     "start": "node server.js"
