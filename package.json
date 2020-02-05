@@ -1,5 +1,5 @@
 {
-  "name": "NodeApp",
+  "name": "chatapp",
   "version": "1.0.0",
   "description": "Chat app built in Node with help of socket.io and mongo cloud",
   "main": "server.js",

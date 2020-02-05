@@ -15,7 +15,6 @@ require('dotenv').config({
 //     console.log('server is listening on port')
 // })
 
-
 var Message = mongoose.model('Message', {
     name: String,
     message: String
